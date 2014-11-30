@@ -32,7 +32,8 @@ function getTextNode( number ) {
 }
 
 function fizzBuzz( number ) {
-	for ( var i = 1; i <= number; i++ ) {
+	var i;
+	for ( i = 1; i <= number; i++ ) {
 		var text = getTextNode( i );
 		var element = document.createElement( 'p' );
 		element.appendChild( text );
